@@ -18,7 +18,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="w-full shadow-md fixed top-0 left-0 z-50 bg-inherit">
+    <header className="w-full shadow-md fixed top-0 left-0 z-50 bg-inherit overflow-x-hidden">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link href="#" className="text-xl font-bold text-primary">
@@ -43,7 +43,7 @@ export default function Navbar() {
         </nav>
 
         {/* Mobile Menu Button and Mode Toggle */}
-        <div className="flex items-center gap-4 md:hidden mr-4">
+        <div className="flex items-center gap-4 md:hidden">
           <ModeToggle />
           <Button
             className="md:hidden"
@@ -61,7 +61,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden shadow-md px-4 pb-4">
+        <div className="md:hidden shadow-md px-4 pb-4 w-full">
           <nav className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <Link
