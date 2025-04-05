@@ -25,7 +25,7 @@ export default function Footer() {
         {/* Quick Links */}
         <div>
           <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-          <ul className="space-y-2 text-sm text-gray-300">
+          <ul className="space-y-2 text-sm">
             <li>
               <Link href="#about" className="hover:underline">
                 About Us
@@ -52,7 +52,7 @@ export default function Footer() {
         {/* Contact Info */}
         <div>
           <h4 className="text-lg font-semibold mb-4">Contact</h4>
-          <ul className="space-y-3 text-sm text-gray-300">
+          <ul className="space-y-3 text-sm">
             <li className="flex items-center gap-2">
               <Phone size={16} className="text-primary" />{" "}
               <span>+254 712 345 678</span>

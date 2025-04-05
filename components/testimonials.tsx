@@ -16,21 +16,21 @@ const testimonials = [
     role: "CEO, NyotaYangu Estates",
     quote:
       "The team was professional, timely, and exceeded our expectations. Our apartment block was delivered ahead of schedule and within budget.",
-    image: "/images/female-user.svg",
+    image: "/icons/female-user.svg",
   },
   {
     name: "John Doe",
     role: "Director, Urbanization Building Ltd.",
     quote:
       "Excellent workmanship and attention to detail. We will definitely work with them again on future projects.",
-    image: "/images/male-user.svg",
+    image: "/icons/male-user.svg",
   },
   {
     name: "Doe John",
     role: "Project Manager, Kileleni Homes",
     quote:
       "Their commitment to quality and safety made them our preferred construction partner.",
-    image: "/images/businessman.svg",
+    image: "/icons/businessman.svg",
   },
 ];
 

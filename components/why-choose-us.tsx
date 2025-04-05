@@ -55,13 +55,11 @@ export default function WhyChooseUs() {
               key={index}
               className="h-full hover:shadow-md transition-shadow"
             >
-              <CardContent className="p-6 text-left space-y-4">
-                <div className="bg-muted p-3 rounded-full inline-flex">
+              <CardContent className="p-6 text-center space-y-4">
+                <div className="bg-muted p-3 rounded-full inline-flex justify-center items-center mx-auto">
                   {feature.icon}
                 </div>
-                <h3 className="text-xl font-semibold">
-                  {feature.title}
-                </h3>
+                <h3 className="text-xl font-semibold">{feature.title}</h3>
                 <p className="text-sm">{feature.description}</p>
               </CardContent>
             </Card>

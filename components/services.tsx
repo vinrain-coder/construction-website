@@ -60,8 +60,10 @@ export default function Services() {
               key={index}
               className="hover:shadow-md transition-shadow h-full"
             >
-              <CardContent className="p-6 flex flex-col items-start gap-4">
-                <div className="bg-muted p-3 rounded-full">{service.icon}</div>
+              <CardContent className="p-6 flex flex-col text-center gap-4">
+                <div className="bg-muted p-3 rounded-full inline-flex justify-center items-center mx-auto">
+                  {service.icon}
+                </div>
                 <h3 className="text-xl font-semibold">{service.title}</h3>
                 <p className="">{service.description}</p>
               </CardContent>
