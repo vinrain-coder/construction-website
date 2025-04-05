@@ -43,7 +43,7 @@ export default function Navbar() {
         </nav>
 
         {/* Mobile Menu Button and Mode Toggle */}
-        <div className="flex items-center gap-4 md:hidden">
+        <div className="flex items-center gap-4 md:hidden mr-4">
           <ModeToggle />
           <Button
             className="md:hidden"

@@ -85,7 +85,7 @@ export default function Footer() {
               <Image src={LinkedIn} alt="LinkedIn" width={24} height={24} />
             </Link>
             <Link href="#" target="_blank">
-              <Image src={Facebook} alt="Facebook" width={24} height={24} />
+              <Image src={Facebook} alt="Facebook" width={24} height={18} />
             </Link>
             <Link href="#" target="_blank">
               <Image src={Instagram} alt="Instagram" width={24} height={24} />
